@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mon CV</title>
+		<link rel="stylesheet" href="../fontawesome-free-6.5.2-web/css/all.min.css">
+		<style>
+        @page {
+            size: A4;
+            margin: 20mm;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 100%;
+            max-width: 210mm; /* A4 width */
+            margin: auto;
+			
+            box-sizing: border-box;
+        }
+        .entete {
+            background-color: white;
+            display: flex;
+            width: 100%;
+            height: 130px;
+            box-sizing: border-box;
+            padding: 10px;
+			margin-bottom: 1.5em;
+        }
+        .photo {
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: -1%;
+            width: 80%;
+			height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+			margin-bottom: 2.9em;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .ent_droite {
+            flex-grow: 1;
+            height: 110px;
+            display: block;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            text-align: center
+        }
+		h1{
+			font-size: 250%;
+			margin-bottom: -3%;
+		}
+		a{
+			text-decoration: none;
+			color: white;
+		}
+		a:hover{
+			color: chocolate;
+		}
+        .contenu {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .gauche, .droite {
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        .gauche {
+            background-color: rgb(25, 16, 66);
+            width: 38%;
+            border-right: 1px solid black;
+			color: white;
+        }
+        .droite {
+            width: 62%;
+			border: 0.1em solid rgb(223, 220, 220);
+        }
+        .element {
+            margin-bottom: 20px;
+        }
+        .titre, .titre2 {
+            font-size: 100%;
+            margin-bottom: 0px;
+        }
+        .titre2 {
+            margin-top: 0;
+        }
+        input[type=button] {
+            border-radius: 50%;
+            width: 5%;
+            height: 15px;
+            border: none;
+        }
+		h4{
+			margin-bottom: -4%;
+			margin-top: 3%;
+			font-size: 125%;
+		}
+        li {
+            font-size: 85%;
+			margin-bottom: -4%;
+        }
+        p{
+        	margin-top: 0px;
+        }
+        .email{
+        	width: 102%;
+        }
+		.experience{
+			font-size: 85%;
+		}
+    </style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="contenu">
+				<div class="gauche">
+					<div class="photo">
+						<img src="../identite.png">
+					</div>
+					<div class="element">
+						<p class="titre"><strong>Informations personnelles</strong></p>
+						<hr>
+						<p><i class="fas fa-user-circle"></i> Daouda Fickou</p>
+						<p class="email"><i class="fas fa-envelope"></i> <a href="mailto:fickou.daouda@ugb.edu.sn">fickou.daouda@ugb.edu.sn</a></p>
+						<p><i class="fas fa-phone"></i><a href="tel:+221-78-282-96-73"> +221-78-282-96-73</a></p>
+						<p><i class="fas fa-home"></i> Fass Mbao, Dakar, Sénégal </p>
+					</div>
+					<div class="element">
+						<p class="titre2"><strong>Formation</strong></p>
+						<hr style="margin-bottom: -5%;">
+						<ul>
+							<li style="margin-bottom: 10px; font-size: 1.0em;">
+								2023-2024 : Data Science en Python
+								CEA-MITIC, Université Gaston Berger (UGB)
+							</li>
+							<li style="margin-bottom: 10px; font-size: 1.0em;">
+								2020-2023 : Licence informatique
+								Université Gaston Berger (UGB)
+							</li>
+							
+							<li style="margin-bottom: 10px; font-size: 1.0em;">
+								2019-2020 : Baccalauréat scientifique (série S2)
+								Lycée de Djirédji
+							</li>
+							
+						</ul>
+						
+					</div>
+					<div class="element">
+						<p class="titre"><strong>Compétences</strong></p>
+						<hr>
+						<ul>
+							<li style="margin-bottom: 10px; font-size: 1.0em;">Langages : C, C++, Python, PHP, JavaScript</li>
+							<li style="margin-bottom: 10px; font-size: 1.0em;">Framworks : Angular, Laravel</li>
+							<li style="margin-bottom: 10px; font-size: 1.0em;">Web : HTML, CSS, Vue.js</li>
+							<li style="margin-bottom: 10px; font-size: 1.0em;">Bases de données : SQL, PL/PgSQL, MySQL</li>
+						</ul>
+					</div>
+					<div class="element">
+						<p class="titre"><strong>Langues</strong></p>
+						<hr>
+						<ul>
+							<li style="margin-bottom: 10px; font-size: 1.0em;">Wolof : Natif</li>
+							<li style="margin-bottom: 10px; font-size: 1.0em;">Français : Courant</li>
+							<li style="margin-bottom: 10px; font-size: 1.0em;">Anglais : Intermédiaire</li>
+						</ul>
+					</div>
+					<div class="element">
+						<p class="titre"><strong>Qualités</strong></p>
+						<hr>
+						<ul>
+							<li style="margin-bottom: 10px; font-size: 1.0em;">Dynamique</li>
+							<li style="margin-bottom: 10px; font-size: 1.0em;">Curieux</li>
+							<li style="margin-bottom: 10px; font-size: 1.0em;">Sens du contact</li>
+							<li style="margin-bottom: 10px; font-size: 1.0em;">Esprit d’équipe</li>
+						</ul>
+					</div>
+					<div class="element">
+						<p class="titre"><strong>Centres d'intéret</strong></p>
+						<hr>
+						<ul>
+							<li style="margin-bottom: 10px; font-size: 1.0em;">Football (Développement de la stratégie et travail en équipe)</li>
+							<li style="margin-bottom: 10px; font-size: 1.0em;">Arts martiaux (Discipline et persévérance)</li>
+						</ul>
+						
+					</div>
+				</div>
+				<div class="droite">
+					<div class="entete">
+						<div class="ent_droite">
+							<h1><strong>DAOUDA</strong>		FICKOU</h1>
+							<h4>DEVELOPPEUR FULL STACK</h4>
+						</div>
+					</div>
+					<div class="element">
+						<p class="titre2"><strong>Profil</strong></p>
+						<hr>
+						Titulaire d'une licence en informatique de l'Université Gaston Berger, 
+						je suis passionné par le développement web et les nouvelles technologies. 
+						Mes compétences techniques couvrent le front-end (HTML, CSS, JavaScript, 
+						Vue.js) et le back-end (PHP, MySQL), avec une expertise dans la conception 
+						de bases de données et la création de plateformes web dynamiques.
+
+						J'ai conduit plusieurs projets académiques significatifs, notamment :
+						<ul>
+							<li>
+								<p style="margin-bottom: 25px; font-size: 1.2em;">
+									<strong>Plateforme de gestion scolaire</strong> : Développement complet d'une 
+									application pour faciliter les interactions entre administration et parents.
+								</p>
+							</li>
+							<li>
+								<p style="margin-bottom: 25px; font-size: 1.2em;">
+									<strong>Apprentissage automatique</strong> : Implémentation d'algorithmes de classification 
+									pour des données complexes (fleurs Iris).
+								</p>
+							</li>
+							<li>
+								<p style="margin-bottom: 25px; font-size: 1.2em;">
+									<strong>Plateforme de prise de rendez-vous médical</strong> : Création d'une solution pour 
+									simplifier la gestion des rendez-vous.
+								</p>
+							</li>
+							<li>
+								<p style="margin-bottom: 25px; font-size: 1.2em;">
+									<strong>Computer Vision</strong> : Création d'un mini cours pour la computer vision et développement
+									d'un modéle de détection de cancer du sein à travers des images en utilsant les réseaux de neurones convolutifs (CNN).
+								</p>
+							</li>
+						</ul>
+
+						Je m’intéresse également à l’intelligence artificielle et à ses applications variées. 
+						Curieux, rigoureux et doté d’un excellent esprit d’équipe, je suis motivé à approfondir 
+						mes connaissances et à relever de nouveaux défis.
+					</div>
+					<div class="element">
+						<p class="titre2"><strong>Expérience académique</strong></p>
+						<hr>
+						<p class="experience">
+							<b><em>Développeur Full Stack (Projet personnel : Plateforme de Mise en Relation Administration-Parents d'Élèves)</em></b>
+							<br>Université Gaston Berger, Saint-Louis — En cours
+							<ul>
+								<li style="margin-bottom: 5px; font-size: 1.0em;">Conception d'une interface utilisateur intuitive pour les parents et l'administration.</li>
+								<li style="margin-bottom: 5px; font-size: 1.0em;">Implémentation d'une gestion sécurisée des données.</li>
+								<li style="margin-bottom: 5px; font-size: 1.0em;">Intégration de notifications en temps réel.</li>
+							</ul>
+						</p>
+						<p class="experience">
+							<b><em>Développeur Full Stack (Projet académique : Plateforme de prise de rendez-médical en ligne)</em></b>
+							<br>Université Gaston Berger, Saint-Louis — Mars 2024 - Mai 2024
+							<ul>
+								<li style="margin-bottom: 5px; font-size: 1.0em;">Développement de fonctionnalités pour la prise de rendez-vous.</li>
+								<li style="margin-bottom: 5px; font-size: 1.0em;">Implémentation de l’authentification utilisateur.</li>
+								<li style="margin-bottom: 5px; font-size: 1.0em;">Maintenance et amélioration continue de l'application.
+								</li>
+							</ul>
+						</p>
+						<p class="experience">
+							<b><em>Développeur en Deep Learning (Projet académique : Détection de Cancer du Sein)</em></b>
+							<br>Université Gaston Berger, Saint-Louis — Aout 2024 - Décembre 2024
+							<ul>
+								<li style="margin-bottom: 5px; font-size: 1.0em;">Mise en place d'un modèle de classification d'images médicales pour la détection des masses bénignes, malignes et normales à partir de la base de données BUSI.</li>
+								<li style="margin-bottom: 5px; font-size: 1.0em;">Prétraitement des données incluant la normalisation, le redimensionnement et la gestion des classes.</li>
+								<li style="margin-bottom: 5px; font-size: 1.0em;">Conception d'un réseau de neurones convolutifs (CNN) avec TensorFlow/Keras, comportant plusieurs couches de convolution et de pooling.</li>
+								<li style="margin-bottom: 5px; font-size: 1.0em;">Implémentation d'un processus de génération de données augmentées pour améliorer la robustesse du modèle.</li>
+								<li style="margin-bottom: 5px; font-size: 1.0em;">Analyser les performances via les métriques de précision, de perte, et une matrice de confusion.</li>
+								<li style="margin-bottom: 5px; font-size: 1.0em;">Développement d'une interface pour effectuer des prédictions sur des images nouvelles.</li>
+							</ul>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
